@@ -38,14 +38,13 @@ export default function AboutPage() {
               />
               <div>
                 <h2 className="text-2xl font-bold">Nikhita Bonu</h2>
-                <p className="text-slate-400">AI/ML Engineer & Full-Stack Developer</p>
               </div>
             </div>
             
             <div className="grid grid-cols-2 gap-4">
               {[
                 { label: 'Experience', value: '5+ years' },
-                { label: 'Location', value: 'Remote' },
+                { label: 'Location', value: 'U.S.A' },
                 { label: 'Focus', value: 'AI/ML' },
                 { label: 'Status', value: 'Open to work' },
               ].map((stat) => (
@@ -99,14 +98,10 @@ export default function AboutPage() {
           <div className="space-y-4">
             <h2 className="text-2xl font-bold">My Journey</h2>
             <p className="text-slate-300">
-              I began my career as a Software Engineer, working on enterprise applications with Java and React.js. 
-              Over time, my passion for machine learning led me to specialize in AI/ML engineering, with a 
-              particular focus on medical imaging and generative models.
+              I began my journey as a software engineer, building and optimizing enterprise systems with a strong focus on performance and scalability. But I was always drawn to understanding how systems could become smarter — not just functional, but intelligent. That curiosity led me into applied machine learning, where I worked on healthcare-focused AI solutions and generative models that bridge research and real-world use.
             </p>
             <p className="text-slate-300">
-              Currently pursuing my Master's in Computer Science with a Generative AI track, I'm exploring 
-              cutting-edge techniques in diffusion models, RAG systems, and their practical applications 
-              in healthcare and automation.
+              Today, through my Master&apos;s in Computer Science with a Generative AI focus, I continue to push myself — exploring LLM systems, RAG architectures, and intelligent automation. For me, growth has always meant going deeper, learning continuously, and building systems that truly matter.
             </p>
           </div>
 
@@ -114,10 +109,7 @@ export default function AboutPage() {
           <div className="p-6 rounded-xl border border-slate-800 bg-gradient-to-br from-slate-900/50 to-slate-800/30">
             <h3 className="text-xl font-bold mb-4">Philosophy</h3>
             <blockquote className="text-slate-300 italic border-l-4 border-blue-400 pl-4 py-2">
-              "I believe the most impactful solutions come from connecting robust software engineering 
-              principles with cutting-edge AI research. Whether it's building scalable backend systems 
-              or implementing novel ML models, I focus on creating solutions that are both technically 
-              excellent and practically valuable."
+              "I believe meaningful innovation happens when strong engineering discipline meets thoughtful AI design. For me, building intelligent systems isn’t just about model performance — it’s about reliability, scalability, and real-world impact."
             </blockquote>
           </div>
 

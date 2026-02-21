@@ -15,6 +15,7 @@ export default function Navbar() {
     { path: '/education', label: 'Education' },
     { path: '/certificates', label: 'Certificates' },
     { path: '/contact', label: 'Contact' },
+    { path: '/skills', label: 'Technical Skills' },
   ]
 
   return (

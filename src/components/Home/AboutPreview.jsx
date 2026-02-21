@@ -13,14 +13,14 @@ export default function AboutPreview() {
             <h2 className="text-3xl font-bold mb-6">
               Passionate about{' '}
               <span className="bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
-                bridging software engineering & AI
+                bridging software engineering & applied AI
               </span>
             </h2>
             <p className="text-slate-300 mb-6">
-              With 5+ years in software engineering and a deep focus on AI/ML, I specialize in building systems that combine robust backend architecture with cutting-edge machine learning models. My work spans medical imaging, generative AI, and scalable automation solutions.
+              With 5+ years of experience in software engineering and AI/ML, I specialize in designing scalable microservices and building end-to-end intelligent systems that integrate machine learning models into production environments. My work includes healthcare-focused AI solutions, particularly in medical imaging and diagnostic data analysis, along with expertise in computer vision, natural language processing, and LLM-powered architectures.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
-              {['Medical Imaging', 'Generative Models', 'RAG Systems', 'MERN Stack', 'Cloud Native'].map((skill, idx) => (
+              {['Healthcare AI', 'Medical Imaging', 'LLMs & RAG Systems', 'Microservices Architecture', 'Cloud-Native Deployment'].map((skill, idx) => (
                 <motion.span
                   key={skill}
                   initial={{ opacity: 0, scale: 0.9 }}
@@ -52,9 +52,9 @@ export default function AboutPreview() {
           >
             {[
               { label: 'Industry Experience', value: '5+ years' },
-              { label: 'AI Projects', value: '15+' },
-              { label: 'Technologies', value: '30+' },
-              { label: 'Certifications', value: '8+' },
+              { label: 'AI Projects', value: '8+' },
+              { label: 'Technologies', value: '20+' },
+              { label: 'Certifications', value: '5+' },
             ].map((stat, idx) => (
               <motion.div
                 key={stat.label}

@@ -2,36 +2,68 @@ import { motion } from 'framer-motion'
 
 const experiences = [
   {
+    role: "Product Development Intern",
+    company: "Erevna Games",
+    period: "Feb 2026 – Present",
+    location: "Lubbock, USA",
+    description: "Engineered agentic AI workflows leveraging Microsoft Copilot to automate dynamic game logic and enhance real-time user interactions. Designed and validated production-grade generative AI features through comprehensive end-to-end and system-level testing to ensure reliability, performance, and scalability.",
+    achievements: [
+      "Engineered agentic AI workflows leveraging Microsoft Copilot to automate dynamic game logic and enhance real-time user interactions",
+      "Designed and validated production-grade generative AI features through comprehensive end-to-end and system-level testing to ensure reliability, performance, and scalability",
+      "Architected an AI-driven, demographic-aware notification system that increased user engagement by 30% through personalized targeting and asynchronous event processing",
+      "Collaborated cross-functionally with product, backend, and QA teams to translate business requirements into scalable AI-powered gaming platform features"
+    ],
+    technologies: ["Microsoft Copilot", "Agentic AI", "Generative AI", "Asynchronous Processing", "A/B Testing"]
+  },
+  {
+    role: "AI/ML Engineer",
+    company: "Texas Tech University",
+    period: "Mar 2025 – Present",
+    location: "Remote, USA",
+    description: "Designed and developed end-to-end AI/ML solutions leveraging computer vision, large language models, and intelligent automation, applying advanced segmentation techniques, rigorous performance evaluation, and LLM- and RAG-based workflows to deliver accurate, scalable, and autonomous systems.",
+    achievements: [
+      "Conducted research on AI-assisted analysis of LFA diagnostic test kits, automating detection and interpretation of test and control lines from video data",
+      "Applied SAM2 (Segment Anything-2) for precise strip-region segmentation, enabling more accurate feature extraction compared to traditional methods",
+      "Validated experimental results using diagnostic performance metrics, benchmarking automated outputs against human interpretation to ensure reliability",
+      "Designed and implemented end-to-end automation workflows in n8n, integrating REST APIs, webhooks, CRMs, databases, and SaaS tools to eliminate manual handoffs",
+      "Developed custom automation nodes and workflows using OpenAI, Google Sheets, Notion, and webhooks to enable seamless data analysis, summarization, and automated reporting",
+      "Integrated LLM- and RAG-based AI-agent capabilities into automation pipelines to enable intelligent decision-making, autonomous task execution, and dynamic workflow adaptation"
+    ],
+    technologies: ["Python", "PyTorch", "OpenCV","SAM2", "Hugging Face", "RAG", "LLM","n8n"]
+  },
+  {
     role: "Software Engineer",
     company: "IVY Comptech - Entain",
     period: "Jan 2021 – Jan 2025",
     location: "Hyderabad, India",
-    description: "Developed and architected scalable enterprise applications using Java (Spring Boot) and React.js. Applied HLD and LLD principles to build microservices-based systems optimized for reliability, performance, and maintainability.",
+    description: "Designed and developed scalable, enterprise-grade applications using Java (Spring Boot) and React.js, following HLD/LLD principles to build robust microservices architectures focused on performance, reliability, and maintainability.",
     achievements: [
-      "Engineered RESTful microservices with efficient inter-service communication and fault tolerance",
-      "Optimized SQL, MongoDB, and MySQL queries, improving data access speed by up to 90%",
-      "Built dynamic, responsive React.js interfaces integrating APIs for seamless user experiences",
-      "Implemented CI/CD pipelines with Jenkins and Docker",
-      "Led code reviews and contributed to system design discussions",
-      "Collaborated in Agile/Scrum teams for iterative delivery"
+      "Designed and developed RESTful microservices using Java (Spring Boot), enabling scalable inter-service communication and seamless integration with AI/ML inference APIs",
+      "Optimized complex SQL, MySQL, and MongoDB queries, improving data retrieval performance by up to 90% and supporting efficient data-driven workflows",
+      "Developed responsive and dynamic React.js interfaces, integrating backend services and implementing AI-enhanced UI features such as recommendations and real-time interactions",
+      "Implemented end-to-end CI/CD pipelines using Jenkins and Docker, automating builds, testing (JUnit & Postman), and deployments",
+      "Actively led code reviews and contributed to high-level and low-level system design discussions to improve maintainability and performance",
+      "Collaborated within Agile/Scrum teams to deliver high-quality features through iterative development cycles"
     ],
-    technologies: ["Java", "Spring Boot", "React.js", "MySQL", "MongoDB", "Jenkins", "Docker", "Microservices"]
+    technologies: ["Java", "Spring Boot", "SQL","MongoDB","React.js","REST APIs","Junit","Postman","Jenkins","Microservices"]
   },
+
   {
-    role: "AI/ML Engineer",
-    company: "Academic & Freelance",
-    period: "2023 – Present",
-    location: "Remote",
-    description: "Focused on generative models, medical imaging, and automation-driven solutions.",
-    achievements: [
-      "Implemented GANs, VAEs, and diffusion models for assignments and research",
-      "Developed ML pipelines for medical segmentation and anomaly detection",
-      "Built LLM-powered internal assistants and RAG workflows for documentation",
-      "Worked on computer vision projects including object detection and image classification",
-      "Collaborated on research papers and open-source AI projects"
-    ],
-    technologies: ["Python", "PyTorch", "TensorFlow", "OpenCV", "Hugging Face", "RAG", "LLMs"]
-  }
+  role: "Project Intern",
+  company: "Aspirevision Tech Education",
+  period: "May 2019 – Aug 2019",
+  location: "Hyderabad, India",
+  description: "Gained hands-on experience in machine learning and data analysis, building and deploying supervised and unsupervised models while exploring cloud-based platforms for scalable ML workflows.",
+  achievements: [
+  "Worked with machine learning libraries including Scikit-Learn, TensorFlow, and PyTorch to perform preprocessing, modeling, and evaluation",
+  "Performed data preprocessing and exploratory data analysis (EDA), including handling missing values, feature scaling, and visualization to improve model accuracy",
+  "Implemented supervised, semi-supervised, and unsupervised learning algorithms such as linear regression, decision trees, and k-means clustering",
+  "Explored cloud-based platforms like AWS to understand scalable machine learning workflows, model deployment, and production infrastructure"
+],
+
+  technologies: ["Python", "Scikit-Learn", "PyTorch", "TensorFlow", "AWS", "Data Preprocessing", "EDA", "Supervised Learning", "Unsupervised Learning", "Visualization"]
+}
+
 ]
 
 export default function ExperiencePage() {
@@ -47,7 +79,7 @@ export default function ExperiencePage() {
           Professional <span className="bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">Experience</span>
         </h1>
         <p className="text-xl text-slate-400 max-w-3xl mx-auto">
-          Combining production-grade backend engineering with cutting-edge AI/ML research
+          Bridging Enterprise Software Engineering with Advanced AI and Automation
         </p>
       </motion.div>
 
