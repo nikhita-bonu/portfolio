@@ -18,7 +18,7 @@ const experiences = [
   {
     role: "AI/ML Engineer",
     company: "Texas Tech University",
-    period: "Mar 2025 – Present",
+    period: "Mar 2025 – Feb 2026",
     location: "Remote, USA",
     description: "Designed and developed end-to-end AI/ML solutions leveraging computer vision, large language models, and intelligent automation, applying advanced segmentation techniques, rigorous performance evaluation, and LLM- and RAG-based workflows to deliver accurate, scalable, and autonomous systems.",
     achievements: [

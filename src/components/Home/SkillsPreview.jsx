@@ -71,7 +71,7 @@ export default function SkillsPreview() {
 
 			<div className="text-center">
 				<Link
-					to="/about"
+					to="/skills"
 					className="inline-flex items-center gap-2 rounded-full border border-slate-700 px-6 py-3 text-sm font-medium text-slate-200 hover:border-slate-500 hover:bg-slate-900 transition-colors"
 				>
 					View Complete Skillset

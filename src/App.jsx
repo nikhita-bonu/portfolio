@@ -5,10 +5,11 @@ import AboutPage from './components/About/AboutPage'
 import ExperiencePage from './components/Experience/ExperiencePage'
 import ProjectsPage from './components/Projects/ProjectsPage'
 import EducationPage from './components/Education/EducationPage'
-import CertificatesPage from './components/Cerificates/CertificatesPage'
 import ContactPage from './components/Contact/ContactPage'
 import NotFound from './pages/NotFound'
 import SkillsPage from './components/Skills/SkillsPage'
+import ResumePage from './components/Resume/ResumePage'
+import CertificatesPage from './components/Cerificates/CertificatesPage'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="skills" element={<SkillsPage />} />
           <Route path="education" element={<EducationPage />} />
           <Route path="certificates" element={<CertificatesPage />} />
+          <Route path="resume" element={<ResumePage />} />
           <Route path="contact" element={<ContactPage />} />
           <Route path="*" element={<NotFound />} />
         </Route>

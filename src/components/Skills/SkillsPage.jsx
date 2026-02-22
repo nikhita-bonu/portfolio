@@ -8,10 +8,6 @@ const skillCategories = [
 		skills: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Bootstrap', 'Streamlit'],
 	},
 	{
-		title: 'Programming Languages',
-		skills: ['Python', 'Java', 'C'],
-	},
-	{
 		title: 'Machine Learning & AI',
 		skills: [
 			'PyTorch',
@@ -75,7 +71,6 @@ const skillCategories = [
 // Emoji map for category icons
 const categoryEmoji = {
 	'Frontend Development': '💻',
-	'Programming Languages': '🐍',
 	'Machine Learning & AI': '🤖',
 	'Databases & Storage': '🗄️',
 	'Cloud & DevOps': '☁️',
@@ -85,7 +80,6 @@ const categoryEmoji = {
 // Color / gradient map for the circular emoji backgrounds (logo-like)
 const categoryColor = {
 	'Frontend Development': 'linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%)',
-	'Programming Languages': 'linear-gradient(135deg, #ffd43b 0%, #306998 100%)',
 	'Machine Learning & AI': 'linear-gradient(135deg, #7c3aed 0%, #06b6d4 100%)',
 	'Databases & Storage': 'linear-gradient(135deg, #ef4444 0%, #f97316 100%)',
 	'Cloud & DevOps': 'linear-gradient(135deg, #0ea5a4 0%, #6366f1 100%)',
@@ -153,12 +147,27 @@ export default function SkillsPage() {
 						<div className="flex items-center justify-between mb-4">
 							<div className="flex items-center gap-3">
 								{/* Emoji icon - simplified: emoji only on round background */}
-								<div
-									className="flex h-10 w-10 items-center justify-center rounded-full text-lg text-white shadow-md"
-									style={{ background: categoryColor[category.title] || 'linear-gradient(135deg,#374151,#111827)' }}
-									aria-hidden="true"
-								>
-									<span className="select-none">{categoryEmoji[category.title] || '⭐'}</span>
+								<div className="relative h-10 w-10 flex-shrink-0">
+									{/* background layer - use Cloud & DevOps gradient for all badges */}
+									<div
+										className="absolute inset-0 rounded-full"
+										style={{
+											background: 'linear-gradient(135deg, #0f172a 0%, #0ea5a4 40%, #6366f1 100%)',
+											boxShadow: 'inset 0 -6px 14px rgba(2,6,23,0.6), 0 6px 20px rgba(3,7,18,0.6)',
+										}}
+									/>
+									{/* glossy highlight */}
+									<div
+										className="absolute inset-0 rounded-full pointer-events-none"
+										style={{
+											background:
+												'radial-gradient(60% 40% at 30% 25%, rgba(255,255,255,0.12), rgba(255,255,255,0.02) 30%, transparent 60%)',
+										}}
+									/>
+									{/* emoji/content */}
+									<div className="relative z-10 flex h-full w-full items-center justify-center text-lg text-white select-none">
+										<span>{categoryEmoji[category.title] || '⭐'}</span>
+									</div>
 								</div>
 								<div>
 									<h3 className="text-lg font-bold text-slate-100">
