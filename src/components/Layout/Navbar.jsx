@@ -80,9 +80,9 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-2">
           <Link
             to="/resume"
-            className="hidden md:inline-flex items-center gap-2 rounded-full border border-slate-700 px-4 py-2 text-sm font-medium text-slate-200 hover:border-slate-500 transition-colors"
+            className="hidden md:inline-flex relative overflow-hidden items-center gap-2 rounded-full border border-blue-600 px-4 py-2 text-sm font-medium text-slate-100 bg-transparent transition-colors hover:border-emerald-400"
           >
-            Resume
+            <span className="relative z-10">Resume</span>
           </Link>
           <Link
             to="/contact"

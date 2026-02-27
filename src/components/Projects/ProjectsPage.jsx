@@ -230,6 +230,27 @@ export default function ProjectsPage() {
   const [selectedProject, setSelectedProject] = useState(null)
   const [expandedId, setExpandedId] = useState(null)
 
+  // Helper to determine if a project matches the active filter.
+  const matchesFilter = (project, filterKey) => {
+    if (filterKey === 'all') return true
+    // check explicit tags first
+    if (project.tags && project.tags.includes(filterKey)) return true
+
+    const cat = (project.category || '').toLowerCase()
+    switch (filterKey) {
+      case 'genai':
+        return cat.includes('generative') || cat.includes('genai') || cat.includes('generative ai')
+      case 'machine-learning':
+        return cat.includes('machine') || cat.includes('ml') || cat.includes('supervised') || cat.includes('unsupervised')
+      case 'deep-learning':
+        return cat.includes('deep') || cat.includes('neural') || cat.includes('deep learning')
+      case 'nlp':
+        return cat.includes('nlp') || cat.includes('natural language') || cat.includes('named entity')
+      default:
+        return false
+    }
+  }
+
   return (
     <div className="container mx-auto px-4 py-20">
       {/* Header */}
@@ -271,7 +292,7 @@ export default function ProjectsPage() {
 
       {/* Projects Grid */}
       <div className="grid md:grid-cols-2 gap-6 items-stretch">
-        {projects.filter(project => filter === 'all' || project.tags.includes(filter)).map((project, index) => {
+        {projects.filter(project => matchesFilter(project, filter)).map((project, index) => {
           const content = project.longDescription || project.description
           const isExpandable = project.longDescription && project.longDescription !== project.description
 

@@ -54,7 +54,7 @@ export default function AboutPreview() {
               { label: 'Industry Experience', value: '5+ years' },
               { label: 'AI Projects', value: '8+' },
               { label: 'Technologies', value: '20+' },
-              { label: 'Certifications', value: '5+' },
+              { label: 'Certifications', value: 'AWS' },
             ].map((stat, idx) => (
               <motion.div
                 key={stat.label}
