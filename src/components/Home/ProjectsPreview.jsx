@@ -1,33 +1,34 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 
 const projects = [
 	{
-		title: 'Blood Group Prediction from Fingerprints',
-		category: 'Computer Vision • Healthcare',
+		title: 'Fingerprint-Based Blood Group Prediction',
+		category: 'Computer Vision • Biometric Analysis',
 		description:
-			'End-to-end pipeline using ResNet-50 for blood group prediction from fingerprint images',
-		tech: ['Python', 'TensorFlow', 'OpenCV'],
+			'Developed a non-invasive blood group classification system predicting 8 ABO/Rh types from fingerprint images using classical ML and deep learning. Built an end-to-end pipeline covering preprocessing, feature engineering, transfer learning, model comparison, and evaluation on ~6,000 samples.',
+		tech: ['Python', 'TensorFlow', 'OpenCV','ResNet50'],
 		featured: true,
 	},
 	{
-		title: 'Medical Diffusion for Brain MRI',
-		category: 'Generative AI • Medical Imaging',
-		description: 'DDPM-based diffusion models for brain MRI anomaly detection',
-		tech: ['PyTorch', 'UNet', 'DDPM'],
+		title: 'Customer Churn Prediction Using Classification Models',
+		category: 'Supervised Learning • Classification Models',
+		description: 'Engineered a churn prediction system on the Telco dataset (7,043 records, 20 features), implementing end-to-end preprocessing, SMOTE-based imbalance handling, cross-validated model training, and a reusable deployment-ready prediction pipeline.',
+		tech: ['Pandas', 'NumPy', 'Scikit-learn', 'Random Forest', 'XGBoost'],
 		featured: true,
 	},
 	{
-		title: 'AI Social Media Automation',
-		category: 'Automation • LLM',
-		description:
-			'Auto-generate, review, and schedule social media posts using LLM workflows',
-		tech: ['n8n', 'OpenAI', 'Airtable'],
+		title: 'Improving Diffusion Models for Medical Anomaly Detection',
+		category: 'Generative AI • Diffusion Models',
+		description: 'Developed a diffusion-based brain MRI anomaly detection system (BRATS 2020) using classifier-guided DDPM/DDIM. Enhanced tumor localization with SSIM-weighted scoring, patch-based diffusion, and Gaussian post-processing, and packaged the pipeline with a ResNet-guided classifier and Tkinter GUI for experimentation.',
+		tech: ['Generative AI', 'Diffusion Models', 'Anomaly Detection'],
 		featured: true,
 	},
 ]
 
 export default function ProjectsPreview() {
+  const [expandedIndex, setExpandedIndex] = useState(null)
 	return (
 		<section className="container mx-auto">
 			<div className="text-center mb-10">
@@ -56,14 +57,6 @@ export default function ProjectsPreview() {
 						transition={{ duration: 0.4, delay: idx * 0.15 }}
 						className="group relative overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/50 hover:border-blue-400/50 transition-all hover:scale-[1.02]"
 					>
-						{project.featured && (
-							<div className="absolute top-4 right-4 z-10">
-								<span className="px-3 py-1 rounded-full text-xs font-medium bg-gradient-to-r from-blue-600/20 to-emerald-500/20 text-blue-300 border border-blue-400/30">
-									Featured
-								</span>
-							</div>
-						)}
-
 						<div className="p-6">
 							<div className="mb-4">
 								<span className="text-xs text-slate-500">
@@ -75,9 +68,22 @@ export default function ProjectsPreview() {
 								{project.title}
 							</h3>
 
-							<p className="text-slate-400 text-sm mb-6 line-clamp-2">
-								{project.description}
-							</p>
+							{expandedIndex === idx ? (
+								<p className="text-slate-400 text-sm mb-6">{project.description}</p>
+							) : (
+								<p className="text-slate-400 text-sm mb-6 line-clamp-2">{project.description}</p>
+							)}
+
+							{/* Read more / Show less for long descriptions */}
+							{project.description && (
+								<div className="mb-4">
+									{expandedIndex === idx ? (
+										<button onClick={() => setExpandedIndex(null)} className="text-sm text-slate-300 hover:text-blue-400">Show less</button>
+									) : (
+										<button onClick={() => setExpandedIndex(idx)} className="text-sm text-blue-400">Read more</button>
+									)}
+								</div>
+							)}
 
 							<div className="flex flex-wrap gap-2">
 								{project.tech.map((tech) => (

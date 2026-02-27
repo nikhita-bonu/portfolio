@@ -63,6 +63,7 @@ export default function AboutPage() {
               {[
                 { category: 'AI/ML', level: 95 },
                 { category: 'Backend Dev', level: 90 },
+                { category: 'Databases', level: 90 },
                 { category: 'Frontend', level: 85 },
                 { category: 'Cloud & DevOps', level: 80 },
               ].map((skill) => (
@@ -123,7 +124,6 @@ export default function AboutPage() {
                 'Hiking',
                 'Tech Blogging',
                 'Mentoring',
-                'Research Papers',
                 'Travel',
                 'Cooking'
               ].map((interest) => (

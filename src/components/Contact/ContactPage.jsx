@@ -43,12 +43,10 @@ export default function ContactPage() {
        </motion.div>
  
       {/* Centered Contact Layout */}
-      <div className="max-w-3xl mx-auto space-y-8">
-        <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-6 md:p-8">
-          <h2 className="text-2xl font-bold mb-4 text-center">Contact</h2>
-          <p className="text-center text-slate-300 mb-6">I'm currently open to opportunities, collaborations, and technical discussions. Reach out using any of the channels below.</p>
-
-          <div className="grid sm:grid-cols-2 gap-4">
+      <div className=" mx-auto space-y-8">
+        <div className="rounded-2xl  p-6 md:p-8">
+          
+          <div className="grid sm:grid-cols-3 gap-6">
             {contactInfo.map((info) => (
               <a
                 key={info.title}
@@ -57,7 +55,7 @@ export default function ContactPage() {
                 rel="noopener noreferrer"
                 className="group flex flex-col items-center text-center gap-3 p-4 rounded-xl border border-slate-800 bg-slate-900/30 hover:border-blue-400/50 hover:bg-slate-900/50 transition-all"
               >
-                <div className="h-12 w-12 rounded-xl bg-gradient-to-br from-blue-600/20 to-emerald-500/20 flex items-center justify-center">
+                <div className="h-12 w-12 rounded-[4px] bg-gradient-to-br from-blue-600/20 to-emerald-500/20 flex items-center justify-center">
                   <span className="text-xl">{info.icon}</span>
                 </div>
                 <div>
@@ -69,14 +67,10 @@ export default function ContactPage() {
             ))}
           </div>
 
-          <div className="flex justify-center mt-6 gap-3">
-            <a href="mailto:bonunikhita@gmail.com" className="inline-flex items-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white">Email</a>
-            <a href="https://linkedin.com/in/nikhitabonu" className="inline-flex items-center gap-2 rounded-lg border border-slate-700 px-4 py-2 text-sm font-medium text-slate-200" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="https://github.com/nikhita-bonu" className="inline-flex items-center gap-2 rounded-lg border border-slate-700 px-4 py-2 text-sm font-medium text-slate-200" target="_blank" rel="noopener noreferrer">GitHub</a>
-          </div>
+      
         </div>
 
-        <div className="rounded-xl border border-slate-800 bg-gradient-to-br from-slate-900/50 to-blue-900/20 p-6 text-center">
+        {/* <div className="rounded-xl border border-slate-800 bg-gradient-to-br from-slate-900/50 to-blue-900/20 p-6 text-center">
           <h3 className="text-lg font-semibold text-slate-50 mb-4">Quick Info</h3>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
@@ -92,7 +86,7 @@ export default function ContactPage() {
               <p className="text-green-400 font-medium">Open for Opportunities</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
      </div>
    )

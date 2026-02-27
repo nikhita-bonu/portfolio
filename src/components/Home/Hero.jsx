@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="space-y-8">
           <div>
             <span className="inline-flex items-center rounded-full border border-slate-700 bg-slate-900/70 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.2em] text-slate-300">
-              AI/ML Engineer & Full-Stack Developer
+              Full-Stack Developer-AI/ML Engieer
             </span>
           </div>
 

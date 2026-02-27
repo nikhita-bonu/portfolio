@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 const skillCategories = [
 	{
 		category: 'Frontend',
-		items: ['React.js', 'JavaScript', 'HTML', 'CSS', 'Streamlit'],
+		items: ['React.js', 'JavaScript', 'HTML', 'CSS'],
 		icon: '🖥️',
 	},
 	{

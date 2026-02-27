@@ -5,7 +5,20 @@ import { useState, useMemo } from 'react'
 const skillCategories = [
 	{
 		title: 'Frontend Development',
-		skills: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Bootstrap', 'Streamlit'],
+		skills: ['HTML', 'CSS', 'JavaScript', 'React.js'],
+	},
+	{
+		title: 'Backend Engineering',
+		skills: [
+			'Java (Spring Boot)',
+			'Python',
+			'Microservices Architecture',
+			'RESTful API Design',
+			'Scalable System Design',
+			'Workflow Automation (n8n)',
+			'Maven',
+			'Gradle',
+		],
 	},
 	{
 		title: 'Machine Learning & AI',
@@ -37,7 +50,6 @@ const skillCategories = [
 		title: 'Cloud & DevOps',
 		skills: [
 			'AWS',
-			'Linux',
 			'Docker',
 			'Kubernetes',
 			'Jenkins',
@@ -53,19 +65,7 @@ const skillCategories = [
 			'MLOps',
 		],
 	},
-	{
-		title: 'Backend Engineering',
-		skills: [
-			'Java (Spring Boot)',
-			'Python',
-			'Microservices Architecture',
-			'RESTful API Design',
-			'Scalable System Design',
-			'Workflow Automation (n8n)',
-			'Maven',
-			'Gradle',
-		],
-	},
+	
 ]
 
 // Emoji map for category icons
