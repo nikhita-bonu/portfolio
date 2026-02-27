@@ -9,11 +9,12 @@ export default function Navbar() {
 
   const navItems = [
     { path: '/', label: 'Home' },
-    { path: '/about', label: 'About' },
-    { path: '/experience', label: 'Experience' },
     { path: '/projects', label: 'Projects' },
+    { path: '/experience', label: 'Experience' },
+    { path: '/skills', label: 'Technical Skills' },
     { path: '/education', label: 'Education' },
-    { path: '/certificates', label: 'Certificates' },
+    { path: '/certificates', label: 'Certifications' },
+    { path: '/about', label: 'About' },
     { path: '/contact', label: 'Contact' },
   ]
 
@@ -77,6 +78,12 @@ export default function Navbar() {
 
         {/* Contact Button */}
         <div className="hidden md:flex items-center gap-2">
+          <Link
+            to="/resume"
+            className="hidden md:inline-flex relative overflow-hidden items-center gap-2 rounded-full border border-blue-600 px-4 py-2 text-sm font-medium text-slate-100 bg-transparent transition-colors hover:border-emerald-400"
+          >
+            <span className="relative z-10">Resume</span>
+          </Link>
           <Link
             to="/contact"
             className="relative overflow-hidden rounded-full bg-gradient-to-r from-blue-600 to-emerald-500 px-4 py-2 text-sm font-medium text-white shadow-soft transition-all hover:scale-105 hover:shadow-blue-500/20 active:scale-95"

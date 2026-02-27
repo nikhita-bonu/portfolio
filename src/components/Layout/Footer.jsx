@@ -19,13 +19,23 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-slate-300 mb-4">Quick Links</h4>
             <div className="space-y-2">
-              {['/', '/about', '/experience', '/projects', '/contact'].map((path) => (
+              {['/', '/projects', '/experience', '/skills', '/education', '/certificates', '/about', '/resume', '/contact'].map((path) => (
                 <Link
                   key={path}
                   to={path}
                   className="block text-sm text-slate-400 hover:text-blue-400 transition-colors"
                 >
-                  {path === '/' ? 'Home' : path.slice(1).charAt(0).toUpperCase() + path.slice(2)}
+                  {{
+                    '/': 'Home',
+                    '/projects': 'Projects',
+                    '/experience': 'Experience',
+                    '/skills': 'Skills',
+                    '/education': 'Education',
+                    '/certificates': 'Certifications',
+                    '/about': 'About',
+                    '/resume': 'Resume',
+                    '/contact': 'Contact'
+                  }[path]}
                 </Link>
               ))}
             </div>

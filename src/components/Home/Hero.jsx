@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="space-y-8">
           <div>
             <span className="inline-flex items-center rounded-full border border-slate-700 bg-slate-900/70 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.2em] text-slate-300">
-              AI/ML Engineer & Full-Stack Developer
+              Full-Stack Developer-AI/ML Engieer
             </span>
           </div>
 
@@ -53,7 +53,7 @@ export default function Hero() {
             </div>
             <div>
               <p className="text-xs uppercase tracking-[0.2em] text-slate-500">Location</p>
-              <p className="mt-1 text-lg font-semibold text-slate-100">Remote</p>
+              <p className="mt-1 text-lg font-semibold text-slate-100">U.S.A</p>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@ export default function Hero() {
         >
           <div className="relative group">
             {/* Glow effect */}
-            <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/20 via-sky-400/10 to-emerald-400/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/30 via-sky-400/20 to-emerald-400/30 rounded-3xl blur-xl opacity-60 transition-opacity duration-500" />
             
             {/* Profile card */}
             <div className="relative rounded-3xl border border-slate-800 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-950 p-6 shadow-soft">
@@ -84,12 +84,12 @@ export default function Hero() {
                 
                 {/* Info */}
                 <h3 className="text-xl font-bold text-slate-50">Nikhita Bonu</h3>
-                <p className="text-sm text-slate-400 mt-1">MS CS · Generative AI · Texas Tech</p>
+                <p className="text-sm text-slate-400 mt-1">M.S. Computer Science · Generative AI · Texas Tech</p>
                 
                 {/* Quote */}
                 <div className="mt-6 p-4 rounded-xl bg-slate-800/30 border border-slate-700/50">
                   <p className="text-sm text-slate-300 italic">
-                    "I like problems where <span className="font-semibold">software engineering</span> and <span className="font-semibold">machine learning</span> work together — low-latency systems, real data, and models that ship."
+                    I enjoy turning complex ideas into production-ready systems — from <span className="font-semibold">data and machine learning models</span> to <span className="font-semibold">scalable APIs</span> and <span className="font-semibold">seamless user experiences</span>.
                   </p>
                 </div>
               </div>

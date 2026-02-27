@@ -15,6 +15,17 @@ body {
   overflow-x: hidden;
 }
 
+/* Header override to ensure true black and solid divider */
+.site-header {
+  background-color: #000000 !important;
+  border-bottom: 1px solid #0b1220 !important; /* very dark divider */
+}
+
+.site-mobile-menu {
+  background-color: #000000 !important;
+  border-top: 1px solid #0b1220 !important;
+}
+
 /* Custom utility classes */
 .bg-radial-glow {
   background: radial-gradient(circle at 50% 0%, rgba(59, 130, 246, 0.15) 0%, transparent 50%), 
