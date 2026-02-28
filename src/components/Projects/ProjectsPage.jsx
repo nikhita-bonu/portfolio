@@ -80,7 +80,7 @@ const projects = [
     title: "VISTA3D- Medical Image Segmentation",
     category: "3D Medical Imaging · Foundation Models · Interactive Segmentation · Healthcare AI Systems",
     description: "Reimplemented the VISTA3D, 3D medical imaging foundation model and developed lightweight, deployment-friendly enhancements to improve interactive segmentation efficiency and mask quality.",
-    longDescription: "Reimplemented the VISTA3D 3D medical imaging foundation model (CVPR) and proposed lightweight, deployment-friendly enhancements to improve interactive segmentation efficiency, CPU inference speed, and mask quality—without retraining the base model. Focused on practical clinical usability by reducing user interactions, accelerating inference via preprocessing, and refining outputs through 3D postprocessing.",
+    longDescription: "Reimplemented the VISTA3D, 3D medical imaging foundation model (CVPR) and proposed lightweight, deployment-friendly enhancements to improve interactive segmentation efficiency, CPU inference speed, and mask quality—without retraining the base model. Focused on practical clinical usability by reducing user interactions, accelerating inference via preprocessing, and refining outputs through 3D postprocessing.",
     longDescriptionHtml: `
       <p>Reimplemented the VISTA3D 3D medical imaging foundation model (CVPR) and proposed lightweight, deployment-friendly enhancements to improve interactive segmentation efficiency, CPU inference speed, and mask quality—without retraining the base model. Focused on practical clinical usability by reducing user interactions, accelerating inference via preprocessing, and refining outputs through 3D postprocessing.</p>
       <h4 style="margin-top:12px;">🔍 Key Highlights</h4>

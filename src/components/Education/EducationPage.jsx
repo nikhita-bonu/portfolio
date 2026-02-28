@@ -5,17 +5,17 @@ import awsMlaBadge from '../../assets/aws-mla.png'
 
 const education = [
 	{
-		degree: 'M.S. in Computer Science – Generative AI Focus',
+		degree: 'M.S. in Computer Science',
 		school: 'Texas Tech University',
-		period: '2025 – Present',
+		period: 'Jan 2025 – May 2026',
 		location: 'Lubbock, Texas, USA',
-		gpa: '3.7/4.0',
+		gpa: '3.70/4.0',
 		description: 'Focus on Generative AI, Machine Learning, and Advanced Operating Systems',
 		courses: [
 			'Generative AI',
-      'Machine Learning',
-      'Neural Networks',
-      'Data Science',
+            'Machine Learning',
+            'Neural Networks',
+            'Data Science',
 			'Network Security',
 			'Advanced Operating Systems',
 			'Analysis of Algorithms',
@@ -24,11 +24,12 @@ const education = [
 	{
 		degree: 'B.Tech in Computer Science & Engineering',
 		school: 'KL University',
-		period: '2017 – 2021',
+		period: 'May 2017 – June 2021',
 		location: 'Guntur, Andhra Pradesh, India',
-		gpa: '3.6/4.0',
+		gpa: '3.60/4.0',
 		description: 'Strong foundation in computer science fundamentals, algorithms, and software engineering',
 		courses: [
+			'Computer Vision & Perception',
 			'Data Structures & Algorithms',
 			'Operating Systems',
 			'Computer Networks',
@@ -64,13 +65,13 @@ export default function EducationPage() {
 				className="text-center mb-16"
 			>
 				<h1 className="text-4xl md:text-5xl font-bold mb-6">
-					Education &{' '}
+					My{' '}
 					<span className="bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
-						Certifications
+						Education
 					</span>
 				</h1>
-				<p className="text-xl text-slate-400 max-w-3xl mx-auto">
-					Academic background and professional certifications in Computer Science and AI
+				<p className="text-xl text-slate-400 max-w-3xl mx-auto text-center">
+					Academic background in Computer Science and AI
 				</p>
 			</motion.div>
 

@@ -15,7 +15,7 @@ export default function AboutPage() {
           About <span className="bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">Nikhita Bonu</span>
         </h1>
         <p className="text-xl text-slate-400 max-w-3xl mx-auto">
-          Full-Stack Developer & AI/ML Engineer passionate about building intelligent systems
+          AI/ML Engineer & Full-Stack Developer passionate about building intelligent systems
         </p>
       </motion.div>
 
