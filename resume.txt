@@ -1,0 +1,62 @@
+Nikhita Bonu
+Lubbock, Texas | bonunikhita@gmail.com | (806) 516-6543 | https://www.linkedin.com/in/nikhitabonu
+
+PROFESSIONAL SUMMARY
+AI/ML Engineer & Full-Stack Developer with 5+ years of experience delivering scalable enterprise applications and intelligent systems, specializing in conversational AI, LLMs, and real-time event-driven platforms. Proficient in Java, Python, React, and microservices architecture, driving 50% performance improvements in distributed systems. Skilled in ML, Computer Vision, and NLP using PyTorch and TensorFlow to build advanced healthcare imaging and LLM models. Experienced in CI/CD, database optimization, and cloud deployment, delivering end-to-end projects and driven cross-functional collaboration.
+
+EDUCATION
+Texas Tech University, Texas, USA	Jan 2025 – May 2026
+Master’s in Computer Science	GPA: 3.7/4.00
+Coursework: Machine Learning, Neural Networks, Applied Data Science, Generative AI, Analysis of Algorithms, DBMS.
+
+PROFESSIONAL EXPERIENCE
+Erevna Games – Lubbock, USA	Feb 2026 – Present
+Product Development Intern
+• Conducted end-to-end testing of a generative AI gaming platform, validating gameplay mechanics, rules, and AI features for reliability.
+• Designed and optimized Microsoft Copilot integrations to automate workflows, enhance game logic, and streamline user interactions.
+• Developed user-targeted notification systems using AI insights and demographic data, increasing user engagement by 30%.
+
+Texas Tech University – Remote, USA	Mar 2025 – Feb 2026
+AI/ML Engineer
+• Conducted AI-driven analysis of LFA test kits, automating test/control lines detection from video data and reducing manual review effort by 50% using advanced computer vision techniques.
+• Applied SAM2(Segment Anything-2) for precise strip-region segmentation, improving feature extraction accuracy by 30%, and validated results against human interpretation using key diagnostic performance metrics.
+• Designed and deployed scalable n8n automation workflows and REST API integrations, integrating OpenAI, Google Sheets, CRMs, and databases, cutting turnaround time by 40% and improving operational efficiency by 35%.
+• Engineered LLM & RAG-based AI agents with advanced prompt engineering, enabling autonomous task execution and dynamic decision-making, increasing automation coverage by 60% and streamlining reporting pipelines.
+
+IVY Comptech (Entain) - Hyderabad, India	Jan 2021 – Jan 2025
+Software Engineer
+• Proficient in designing and developing RESTful microservices using Java (Spring Boot) and integrating AI/ML inference APIs to deliver intelligent, scalable backend functionalities in distributed systems.
+• Optimized SQL, MongoDB, and MySQL queries, reducing query execution time by up to 90% and improving backend response latency, while building scalable data-processing scripts to support end-to-end machine-learning workflows.
+• Developed responsive frontend components with React.js, integrating backend services and implementing AI- enhanced UI features such as recommendations and dynamic data-driven interactions enhancing the user experience.
+• Established end-to-end CI/CD pipelines with Jenkins, GitHub Actions, Docker, and Kubernetes automating builds, Junit testing, deployments, reducing deployment cycles by 30% and improving release reliability through active code in Agile/Scrum environments.
+
+Aspirevision Tech Education - Hyderabad, India	May 2019 – Aug 2019
+Project Intern
+• Hands-on experience with machine learning libraries such as Scikit-Learn, TensorFlow, and PyTorch for data preprocessing, EDA.
+• Applied supervised, semi supervised and unsupervised algorithms including linear regression, decision trees, k-means clustering for predictive modeling.
+• Explored AWS cloud platforms for scalable machine learning workflows, including model deployment, and performance optimization.
+
+PROJECTS
+Local Network-Security Tutor & Quiz Bot	Sep 2025 – Dec 2025
+• Designed a secure, privacy-preserving RAG pipeline by building a local LLM system with document chunking, Sentence-Transformer embeddings, and FAISS/Qdrant vector search to support high-accuracy offline Q&A.
+• Orchestrated multi-agent workflows including a Q&A Tutor Agent (retrieval + citation generation) and a Quiz Agent (auto-generation + grading of MCQ/T/F/open-ended questions), demonstrating strong skills in agentic AI systems and prompt orchestration.
+• Implemented an end-to-end LLM architecture using open-source models, embedding models, retrieval modules, and a user-facing interface showcasing expertise in LLM integration, system design, and production-ready AI applications.
+• Technologies: Python, GPT4All/Llama, Transformers, FAISS/Qdrant, Streamlit, RAG, Vector Databases.
+
+Named Entity Recognition with BERT in PyTorch	Mar 2025 – May 2025
+• Conducted comprehensive data preprocessing and label encoding to prepare raw text for training, ensuring high-quality inputs for the NER pipeline.
+• Implemented custom tokenization and handling of subword handling using Hugging Face’s BERT tokenizer to preserve entity boundary accuracy.
+• Developed and fine-tuned a BERT-based NER system within a PyTorch framework, achieving a state-of-the-art F1 score of 0.9108.
+• Performed hyperparameter tuning and qualitative error analysis to further optimize model performance and interpretability.
+• Technologies: Python, PyTorch, Hugging Face Transformers, BERT, NLP, Data Preprocessing.
+
+SKILLS
+Programming Languages: Python, Java, C.
+Machine Learning & AI: PyTorch, TensorFlow, Hugging Face Transformers, MONAI, OpenCV, LLM, RAG, Agentic AI, Prompt Engineering.
+Databases: SQL, MySQL, Relational Databases, MongoDB, Redis, Bigtable, Vector Databases.
+Web Technologies: HTML, CSS, JavaScript, React.js, REST APIs, Bootstrap, Streamlit.
+Cloud & DevOps: AWS, Linux, Docker, Kubernetes, Jenkins, Git, GitHub, Bitbucket, CI/CD, JIRA, Confluence, Ansible, Maven, Gradle, MLOps.
+
+CERTIFICATIONS
+AWS Certified AI Practitioner (AIF-C01).
+AWS Certified Machine Learning Engineer – Associate (MLA-C01).
