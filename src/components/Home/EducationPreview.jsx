@@ -5,9 +5,10 @@ const education = [
 	{
 		degree: 'B.Tech in Computer Science & Engineering',
 		school: 'KL Univeristy',
-		period: '2017 – 2021',
-		focus: 'Specialization: Software Engineering & Systems',
+		period: 'May 2017 – June 2021',
+		focus: 'Specialization: Artificial intelligence & Software Systems',
 		courses: [
+            'Computer Vision & Perception',
 			'Data Structures & Algorithms',
 			'Software Development',
 			'Databases',
@@ -18,7 +19,7 @@ const education = [
 	{
 		degree: 'M.S. in Computer Science',
 		school: 'Texas Tech University',
-		period: '2025 – Present',
+		period: 'Jan 2025 – May 2026',
 		focus: 'Specialization: Machine Learning & Generative AI',
 		courses: [
 			'Generative AI',

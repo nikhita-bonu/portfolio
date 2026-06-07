@@ -3,10 +3,7 @@ import { useState, useMemo } from 'react'
 
 // Skill categories data
 const skillCategories = [
-	{
-		title: 'Frontend Development',
-		skills: ['HTML', 'CSS', 'JavaScript', 'React.js'],
-	},
+	
 	{
 		title: 'Backend Engineering',
 		skills: [
@@ -64,6 +61,10 @@ const skillCategories = [
 			'Gradle',
 			'MLOps',
 		],
+	},
+	{
+		title: 'Frontend Development',
+		skills: ['HTML', 'CSS', 'JavaScript', 'React.js'],
 	},
 	
 ]

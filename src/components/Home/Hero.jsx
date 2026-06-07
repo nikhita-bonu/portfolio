@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="space-y-8">
           <div>
             <span className="inline-flex items-center rounded-full border border-slate-700 bg-slate-900/70 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.2em] text-slate-300">
-              Full-Stack Developer-AI/ML Engieer
+              AI/ML Engineer & Full-Stack Developer
             </span>
           </div>
 
@@ -22,7 +22,7 @@ export default function Hero() {
               </span>
             </h1>
             <p className="text-lg text-slate-300 max-w-xl">
-              I'm a <span className="font-semibold text-slate-100">Full-Stack Developer & AI/ML Engineer</span> who enjoys connecting robust backend systems with practical machine-learning solutions.
+              I'm a <span className="font-semibold text-slate-100">AI/ML Engineer & Full-Stack Developer</span> who enjoys connecting robust backend systems with practical machine-learning solutions.
             </p>
           </div>
 

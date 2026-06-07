@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-slate-50 mb-4">Nikhita Bonu</h3>
             <p className="text-sm text-slate-400 max-w-xs">
-              Full-Stack Developer & AI/ML Engineer building reliable systems powered by AI.
+              AI/ML Engineer & Full-Stack Developer building reliable systems powered by AI.
             </p>
           </div>
 
