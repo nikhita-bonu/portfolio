@@ -19,7 +19,7 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-slate-300 mb-4">Quick Links</h4>
             <div className="space-y-2">
-              {['/', '/projects', '/experience', '/skills', '/education', '/certificates', '/about', '/resume', '/contact'].map((path) => (
+              {['/', '/projects', '/experience', '/skills', '/education', '/certificates', '/about', '/contact'].map((path) => (
                 <Link
                   key={path}
                   to={path}
@@ -33,7 +33,6 @@ export default function Footer() {
                     '/education': 'Education',
                     '/certificates': 'Certifications',
                     '/about': 'About',
-                    '/resume': 'Resume',
                     '/contact': 'Contact'
                   }[path]}
                 </Link>

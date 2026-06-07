@@ -9,7 +9,7 @@ const education = [
 		school: 'Texas Tech University',
 		period: 'Jan 2025 – May 2026',
 		location: 'Lubbock, Texas, USA',
-		gpa: '3.70/4.0',
+		gpa: '3.7/4.0',
 		description: 'Focus on Generative AI, Machine Learning, and Advanced Operating Systems',
 		courses: [
 			'Generative AI',

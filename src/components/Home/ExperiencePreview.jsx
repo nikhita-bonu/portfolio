@@ -5,7 +5,7 @@ const experiences = [
 	{
 		role: 'Software Engineer',
 		company: 'IVY Comptech - Entain',
-		period: 'Jan 2021 – Jan 2025',
+		period: 'Jan 2021 – Dec 2024',
 		highlights: [
 			'Built dynamic React.js interfaces with seamless backend integration.',
 			'Designed and developed scalable RESTful microservices using Spring Boot.',
@@ -15,7 +15,7 @@ const experiences = [
 	{
 		role: 'AI/ML Engineer',
 		company: 'Texas Tech University',
-		period: 'Mar 2025 – Dec 2025',
+		period: 'Mar 2025 – Jan 2026',
 		highlights: [
 			'Applied computer vision techniques for healthcare data analysis.',
 			'Engineered LLM-based systems with RAG and multi-agent workflows.',
